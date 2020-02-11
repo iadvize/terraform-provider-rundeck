@@ -174,6 +174,8 @@ A command's `job` block has the following structure:
 
 * `group_name`: (Optional) The name of the group that the target job belongs to, if any.
 
+* `project`: (Optional) The name of the project that the target job belongs to, if any.
+
 * `run_for_each_node`: (Optional) Boolean controlling whether the job is run only once (`false`,
   the default) or whether it is run once for each node (`true`).
 
